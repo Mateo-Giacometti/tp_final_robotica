@@ -1,0 +1,41 @@
+[0.424s] Invoking command in '/home/mateo/Desktop/tp_final_robotica/src/turtlebot3_slam_mapper': CONDA_PROMPT_MODIFIER=(rosenv) PYTHONPATH=/home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/prefix_override:/home/mateo/miniconda3/envs/rosenv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages:${PYTHONPATH} /home/mateo/miniconda3/envs/rosenv/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_slam_mapper build --build-base /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build install --record /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/install.log --single-version-externally-managed install_data
+[0.570s] /home/mateo/miniconda3/envs/rosenv/lib/python3.11/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.570s]   warnings.warn(msg)
+[0.602s] running egg_info
+[0.607s] creating ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info
+[0.607s] writing ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/PKG-INFO
+[0.607s] writing dependency_links to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/dependency_links.txt
+[0.607s] writing entry points to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/entry_points.txt
+[0.607s] writing requirements to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/requires.txt
+[0.607s] writing top-level names to ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/top_level.txt
+[0.607s] writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[0.618s] reading manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[0.619s] writing manifest file '../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info/SOURCES.txt'
+[0.619s] running build
+[0.619s] running build_py
+[0.619s] creating /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[0.619s] copying turtlebot3_slam_mapper/__init__.py -> /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[0.619s] copying turtlebot3_slam_mapper/python_slam_node.py -> /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper
+[0.619s] running install
+[0.622s] running install_lib
+[0.627s] creating /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper
+[0.627s] copying /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/__init__.py -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper
+[0.627s] copying /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build/lib/turtlebot3_slam_mapper/python_slam_node.py -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper
+[0.627s] byte-compiling /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper/__init__.py to __init__.cpython-311.pyc
+[0.628s] byte-compiling /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper/python_slam_node.py to python_slam_node.cpython-311.pyc
+[0.629s] running install_data
+[0.629s] creating /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+[0.629s] copying resource/turtlebot3_slam_mapper -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/ament_index/resource_index/packages
+[0.629s] copying package.xml -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper
+[0.630s] creating /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+[0.630s] copying launch/python_slam_maze.launch.py -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/launch
+[0.630s] creating /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+[0.630s] copying rviz/slam_maze.rviz -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/rviz
+[0.630s] creating /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+[0.630s] copying config/slam_toolbox_params.yaml -> /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/share/turtlebot3_slam_mapper/config
+[0.630s] running install_egg_info
+[0.636s] Copying ../../build/turtlebot3_slam_mapper/turtlebot3_slam_mapper.egg-info to /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages/turtlebot3_slam_mapper-0.0.0-py3.11.egg-info
+[0.636s] running install_scripts
+[0.647s] Installing python_slam_node script to /home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/turtlebot3_slam_mapper
+[0.647s] writing list of installed files to '/home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/install.log'
+[0.660s] Invoked command in '/home/mateo/Desktop/tp_final_robotica/src/turtlebot3_slam_mapper' returned '0': CONDA_PROMPT_MODIFIER=(rosenv) PYTHONPATH=/home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/prefix_override:/home/mateo/miniconda3/envs/rosenv/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/mateo/Desktop/tp_final_robotica/install/turtlebot3_slam_mapper/lib/python3.11/site-packages:${PYTHONPATH} /home/mateo/miniconda3/envs/rosenv/bin/python3.11 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlebot3_slam_mapper build --build-base /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/build install --record /home/mateo/Desktop/tp_final_robotica/build/turtlebot3_slam_mapper/install.log --single-version-externally-managed install_data
