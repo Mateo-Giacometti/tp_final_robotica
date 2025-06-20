@@ -14,7 +14,6 @@ from rclpy.qos import (
     QoSDurabilityPolicy,
 )
 
-
 class Particle:
     def __init__(self, x, y, theta, weight, map_shape):
         self.x = x

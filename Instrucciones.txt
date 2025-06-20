@@ -1,0 +1,20 @@
+# En una termina dentro de rosenv y la carpeta tp_final_robotica
+
+colcon build --packages-select turtlebot3_slam_mapper
+
+source install/setup.bash
+
+export TURTLEBOT3_MODEL=burger
+
+ros2 launch turtlebot3_slam_mapper python_slam_maze.launch.py
+
+
+# En otra consola dentro de rosenv 
+
+export TURTLEBOT3_MODEL=burger
+
+ros2 run turtlebot3_teleop teleop_keyboard
+
+# Para guardar el mapa
+
+ros2 run nav2_map_server map_saver_cli -f ~/map

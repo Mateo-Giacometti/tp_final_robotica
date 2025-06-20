@@ -192,12 +192,8 @@ class PythonSlamNode(Node):
             weighted_x = sum(p.x * p.weight for p in self.particles) / total_weight
             weighted_y = sum(p.y * p.weight for p in self.particles) / total_weight
 
-            sin_sum = (
-                sum(np.sin(p.theta) * p.weight for p in self.particles) / total_weight
-            )
-            cos_sum = (
-                sum(np.cos(p.theta) * p.weight for p in self.particles) / total_weight
-            )
+            sin_sum = (sum(np.sin(p.theta) * p.weight for p in self.particles) / total_weight)
+            cos_sum = (sum(np.cos(p.theta) * p.weight for p in self.particles) / total_weight)
             weighted_theta = np.arctan2(sin_sum, cos_sum)
 
             self.current_map_pose = np.array([weighted_x, weighted_y, weighted_theta])
